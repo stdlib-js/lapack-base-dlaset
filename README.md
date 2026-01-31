@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+dlaset = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/lapack-base-dlaset/tags). For example,
+
+```javascript
 dlaset = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var dlaset = require( 'path/to/vendor/umd/lapack-base-dlaset/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -174,7 +179,7 @@ dlaset.ndarray( 'all', 2, 2, 2.0, 1.0, A, 2, 1, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
