@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dlaset from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@deno/mod.js';
+import dlaset from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@v0.1.0-deno/mod.js';
 ```
 
 #### dlaset( order, uplo, M, N, alpha, beta, A, LDA )
@@ -147,7 +147,7 @@ import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
-import dlaset from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@deno/mod.js';
+import dlaset from 'https://cdn.jsdelivr.net/gh/stdlib-js/lapack-base-dlaset@v0.1.0-deno/mod.js';
 
 var shape = [ 5, 8 ];
 var order = 'row-major';
