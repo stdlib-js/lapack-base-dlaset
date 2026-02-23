@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`8198d19`](https://github.com/stdlib-js/stdlib/commit/8198d196d6af765c7c9c39e4a71fe55713ad3748) - **bench:** refactor to use string interpolation in `lapack/base/dlaset` [(#10099)](https://github.com/stdlib-js/stdlib/pull/10099) _(by Prajjwal Bajpai, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Prajjwal Bajpai
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
